@@ -1,0 +1,191 @@
+.navbar{
+    background: #000;
+
+}
+
+.nav-item{
+    padding-left: 1cm;
+}
+
+.nav-link{
+    text-transform: uppercase;
+
+}
+
+.carousel-item{
+
+    height: 450px;
+}
+.carousel-img-1{
+    background: url('../img/background-6.jpg');
+    background-size: cover;
+}
+
+.carousel-img-2{
+    background: url('../img/background-7.jpg');
+    background-size: cover;
+}
+
+.carousel-img-3{
+    background: url('../img/background-8.jpg');
+    background-size: cover;
+}
+.slide-text-color{
+    color: rgb(0, 0, 0);
+    
+}
+
+/*  Home-Get Started  */
+
+#getstarted{
+   
+
+    background: url('../img/mountains.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100px ;
+
+}
+
+.dark-overlay{
+    background: rgba(0,0,0,0.4);
+    min-height: 100px ;
+}
+
+/* Home-video Section */
+
+#home-video{
+   
+    background: url('../img/home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100px ;
+    color: black;
+
+}
+
+
+/* newsletter */
+
+#newsletter{
+   
+
+    background: url('../img/home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100px ;
+
+}
+
+
+.dark-overlay2{
+    background: rgba(0,0,0,0.4);
+    min-height: 100px ;
+}
+
+
+/*  */
+
+
+.stylecard:hover{
+    box-shadow: 5px 10px 15px 1px black;
+    
+    }
+
+
+/* When screen Size will be  1 to 480  it h2 text size 2.4 rem */
+
+@media(max-width: 480px){
+    #showcase h2{
+        font-size: 2.4rem;
+    }
+}
+
+
+@media(max-width: 768px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+}
+
+/* Photo Gallery  */
+
+
+@media(max-width: 765px){
+    .image{
+        margin-top: 15px;
+        
+    }
+}
+
+
+@media(max-width: 800px){
+    #footer-section{
+       
+       margin-bottom: 20px;
+
+    }
+}
+
+
+
+
+/* ---------------------------------------------------------------------About Us-------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+#page-header{
+   
+
+    background: url('../img/gallery2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100px ;
+
+}
+
+.slick-prev:before {
+    background: rgb(10, 10, 10);
+    
+}
+.slick-next:before {
+    background: rgb(0, 0, 0);
+    
+}
+
+
+
+
+/* -------------------------------------------------Services-Page---------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Home-video Section */
+
+
+#services-header{
+   
+
+    background: url('../img/gallery2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
